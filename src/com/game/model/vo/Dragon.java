@@ -7,7 +7,7 @@ public class Dragon extends Character5G {
 	private Scanner scan = new Scanner(System.in);
 
 	public Dragon() {
-		super("장로 드래곤", 600, 15000, 0, "장로 드래곤", "장로 드래곤의 콧물", "", "", "치킨킥", "치킨 펀치");
+		super("장로 드래곤", 600, 150000, 0, "장로 드래곤", "장로 드래곤의 콧물", "", "", "치킨킥", "치킨 펀치");
 
 	}
 
