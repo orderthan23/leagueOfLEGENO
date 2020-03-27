@@ -21,8 +21,16 @@ public class Lobby {
 	public void MainLobby() {
 
 		User user = new Ash();
-		System.out.println("환영 합니다 리그오브레게노에 오신것을 환영합니다");
-		System.out.println("이름을 입력해주세요");
+		String welcome="환영합니다 리그오브레게노에 오신것을 환영합니다.\n이름을 입력해주세요:";
+		for(int i=0; i<welcome.length(); i++) {
+			try {
+				Thread.sleep(100L);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			System.out.print(welcome.charAt(i));
+		}
 		String name = scan.next();
 
 		while (true) {
@@ -46,7 +54,16 @@ public class Lobby {
 				break;
 
 			case 3:
-				System.out.println(name + "님의 영웅 정보입니다");
+				String introduceMyInfo=(name + "님의 영웅 정보입니다\n");
+				for(int i=0; i<introduceMyInfo.length(); i++) {
+					try {
+						Thread.sleep(100L);
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+					System.out.print(introduceMyInfo.charAt(i));
+				}
 				System.out.println(user);
 				System.out.print("스킬정보를 보시겠습니까?맞으면 1. 모든 영웅의 스킬 정보를 보려면 2  아니면 나머지");
 				int choice = scan.nextInt();
