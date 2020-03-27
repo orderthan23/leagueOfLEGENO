@@ -13,12 +13,12 @@ public class Ghost extends Character5G{
 
 	public void cry() {
 
-		System.out.println("유령가 위용을 뿜으며 등장합니다");
+		System.out.println("유령이 위용을 뿜으며 등장합니다");
 
 	}
 
 	public void peck(User user) {
-		System.out.println("유령가 겁을 주었습니다.");
+		System.out.println("유령이 겁을 주었습니다.");
 		user.hp -= super.getAttack();
 		System.out.println(super.getAttack()+"의 데미지를 달았습니다");
 		System.out.println("나의 남은 체력 :" + user.hp);
@@ -79,7 +79,7 @@ public class Ghost extends Character5G{
 				
 
 				if (super.getHp() <= 0)	{
-					System.out.println("유령가 쓰러집니다 ");
+					System.out.println("유령이 쓰러집니다 ");
 					User.coin+=200;
 					break;
 					
