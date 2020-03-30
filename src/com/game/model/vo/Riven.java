@@ -59,6 +59,7 @@ public class Riven extends Character5G{
 	public int spSkill3() {
 		System.out.println("리븐의 투지로 체력이 오히려 상승합니다");
 		System.out.println("50 만큼 hp가 회복되었습니다");
+		//왜이럴
 		
 		 hp+=50;
 		spskill3dmg=0;
