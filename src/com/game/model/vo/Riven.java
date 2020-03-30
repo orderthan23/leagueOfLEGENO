@@ -41,17 +41,17 @@ public class Riven extends Character5G{
 	@Override
 	public int spSkill1() {
 		System.out.println("리븐이 3연타로 공격합니다 ");
+		spskill1dmg=attack*3;
 		System.out.println(super.getAttack()*3+"만큼 데미지를 입혔습니다");
 		
-		spskill1dmg=attack*3;
 		return spskill1dmg;
 	}
 
 	@Override
 	public int spSkill2() {
 		System.out.println("리븐이 기를 폭발합니다");
-		System.out.println(super.getAttack()+(super.getAttack()/2));
 		spskill2dmg=attack+=attack/2;
+		System.out.println(super.getAttack()+(super.getAttack()/2));
 		return spskill2dmg;
 	}
 

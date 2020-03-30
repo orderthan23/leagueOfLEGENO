@@ -95,8 +95,8 @@ public Xerath() {
 	@Override
 	public int spSkill3() {
 		System.out.println( super.getSpSkill3Name() + "을 사용합니다");
-		System.out.println("제라스가 마나를 600 회복합니다");
 		mp +=600;
+		System.out.println("제라스가 마나를 600 회복합니다");
 		spskill3dmg=0;
 		return spskill3dmg;
 	}

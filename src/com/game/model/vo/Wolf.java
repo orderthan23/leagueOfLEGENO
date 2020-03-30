@@ -54,8 +54,8 @@ public class Wolf extends Character5G {
 
 					break;
 				case 2:
-					super.setHp(super.getHp() - user.spSkill1());
 					System.out.println("우두머리 늑대이 비명을 지르며 hp가" +user.spskill1dmg + "만큼 감소합니다");
+					super.setHp(super.getHp() - user.spSkill1());
 
 					break;
 				case 3:
