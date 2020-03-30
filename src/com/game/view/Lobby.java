@@ -388,6 +388,24 @@ public class Lobby {
 		Wolf c1 = new Wolf();
 		c1.cry();
 		c1.lossHp(user);
+		if(user instanceof Riven) {
+			user.setHp(3500);
+		}if(user instanceof Rux) {
+			user.setHp(2000);
+			user.setMp(800);
+		}
+		if(user instanceof Atrox) {
+			user.setHp(5000);
+			user.setMp(400);
+		}
+		if(user instanceof Xerath) {
+			user.setHp(2000);
+			user.setMp(1000);
+		}
+		if(user instanceof Ash) {
+			user.setHp(2000);
+			user.setMp(400);
+		}
 
 	}
 
@@ -397,6 +415,24 @@ public class Lobby {
 		Ghost c1 = new Ghost();
 		c1.cry();
 		c1.lossHp(user);
+		if(user instanceof Riven) {
+			user.setHp(3500);
+		}if(user instanceof Rux) {
+			user.setHp(2000);
+			user.setMp(800);
+		}
+		if(user instanceof Atrox) {
+			user.setHp(5000);
+			user.setMp(400);
+		}
+		if(user instanceof Xerath) {
+			user.setHp(2000);
+			user.setMp(1000);
+		}
+		if(user instanceof Ash) {
+			user.setHp(2000);
+			user.setMp(400);
+		}
 
 	}
 
@@ -406,6 +442,24 @@ public class Lobby {
 		Dragon c1 = new Dragon();
 		c1.cry();
 		c1.lossHp(user);
+		if(user instanceof Riven) {
+			user.setHp(3500);
+		}if(user instanceof Rux) {
+			user.setHp(2000);
+			user.setMp(800);
+		}
+		if(user instanceof Atrox) {
+			user.setHp(5000);
+			user.setMp(400);
+		}
+		if(user instanceof Xerath) {
+			user.setHp(2000);
+			user.setMp(1000);
+		}
+		if(user instanceof Ash) {
+			user.setHp(2000);
+			user.setMp(400);
+		}
 
 	}
 
@@ -415,6 +469,24 @@ public class Lobby {
 		Baron c1 = new Baron();
 		c1.cry();
 		c1.lossHp(user);
+		if(user instanceof Riven) {
+			user.setHp(3500);
+		}if(user instanceof Rux) {
+			user.setHp(2000);
+			user.setMp(800);
+		}
+		if(user instanceof Atrox) {
+			user.setHp(5000);
+			user.setMp(400);
+		}
+		if(user instanceof Xerath) {
+			user.setHp(2000);
+			user.setMp(1000);
+		}
+		if(user instanceof Ash) {
+			user.setHp(2000);
+			user.setMp(400);
+		}
 
 	}
 
@@ -424,6 +496,24 @@ public class Lobby {
 		StoneCrab c1 = new StoneCrab();
 		c1.cry();
 		c1.lossHp(user);
+		if(user instanceof Riven) {
+			user.setHp(3500);
+		}if(user instanceof Rux) {
+			user.setHp(2000);
+			user.setMp(800);
+		}
+		if(user instanceof Atrox) {
+			user.setHp(5000);
+			user.setMp(400);
+		}
+		if(user instanceof Xerath) {
+			user.setHp(2000);
+			user.setMp(1000);
+		}
+		if(user instanceof Ash) {
+			user.setHp(2000);
+			user.setMp(400);
+		}
 
 	}
 
